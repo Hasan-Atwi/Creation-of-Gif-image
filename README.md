@@ -8,15 +8,26 @@ This project demonstrates how to create an animated GIF from multiple images usi
 2. **Load Images**: Reads a list of PNG images (`team-pic1.png`, `team-pic2.png`).
 3. **Create GIF**: Combines the images into a single GIF file (`team.gif`) with a set duration and infinite loop.
 
+
 ## Code Flow Diagram
 
-```mermaid
-graph TD
-    A[Start] --> B[Import imageio]
-    B --> C[Define image filenames]
-    C --> D[Read images into list]
-    D --> E[Write images as GIF]
-    E --> F[End]
+```
+Start
+    |
+    v
+Import imageio
+    |
+    v
+Define image filenames
+    |
+    v
+Read images into list
+    |
+    v
+Write images as GIF
+    |
+    v
+ End
 ```
 
 ## Requirements
